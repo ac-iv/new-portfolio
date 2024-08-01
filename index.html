@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>AvelinoOS</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="screen">
+  <div class="toolbar">
+    <nav>
+      <ul>
+        <li class="apple">&nbsp;
+          <div class="dropDown">
+            <ol>
+              <li id="openAbout"> 
+                <label>About Avelino J. Cortina IV...</label>
+              </li>
+              <li class="sep"></li>
+              <li> 
+                <label>Choose Printer</label>
+              </li>
+              <li> 
+                <label>Scrapbook</label>
+              </li>
+              <li> 
+                <label>Alarm Clock</label>
+              </li>
+              <li> 
+                <label>Key Caps</label>
+              </li>
+              <li> 
+                <label>Control Panel    </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li> 
+          <label>File</label>
+          <div class="dropDown">
+            <ol>
+              <li class="disable"> 
+                <label>New Folder</label><em> N</em>
+              </li>
+              <li> 
+                <label>Open</label>
+              </li>
+              <li class="disable"> 
+                <label>Print</label>
+              </li>
+              <li class="disable"> 
+                <label>Close</label>
+              </li>
+              <li class="sep"></li>
+              <li>
+                <label>Get Info</label><em>I  </em>
+              </li>
+              <li class="disable"> 
+                <label>Duplicate</label><em>D</em>
+              </li>
+              <li class="sep"></li>
+              <li class="disable"> 
+                <label>Page Setup</label>
+              </li>
+              <li class="disable"> 
+                <label>Print Catalog</label>
+              </li>
+              <li class="sep"></li>
+              <li> 
+                <label>Eject</label><em>E</em>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li> 
+          <label>Edit</label>
+          <div class="dropDown">
+            <ol>
+              <li class="disable"> 
+                <label>Undo</label><em>Z</em>
+              </li>
+              <li class="sep"></li>
+              <li class="disable"> 
+                <label>Cut</label><em>X</em>
+              </li>
+              <li class="disable"> 
+                <label>Copy</label><em>C</em>
+              </li>
+              <li class="disable"> 
+                <label>Paste</label><em>V</em>
+              </li>
+              <li class="disable"> 
+                <label>Clear</label>
+              </li>
+              <li> 
+                <label>Select All</label><em>A</em>
+              </li>
+              <li class="sep"></li>
+              <li> 
+                <label>Show Clipboard</label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li> 
+          <label>View</label>
+          <div class="dropDown">
+            <ol>
+              <li class="disable selected"> 
+                <label>by Icon</label>
+              </li>
+              <li class="disable"> 
+                <label>by Name</label>
+              </li>
+              <li class="disable"> 
+                <label>by Date</label>
+              </li>
+              <li class="disable"> 
+                <label>by Size</label>
+              </li>
+              <li class="disable"> 
+                <label>by Kind</label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li> 
+          <label>Special</label>
+          <div class="dropDown">
+            <ol>
+              <li> 
+                <label>Clean Up</label>
+              </li>
+              <li class="disable"> 
+                <label>Empty Trash</label>
+              </li>
+              <li> 
+                <label>Erase Disk</label>
+              </li>
+              <li class="disable"> 
+                <label>Set Startup</label>
+              </li>
+              <li class="disable"> 
+                <label>Use MiniFinder...</label>
+              </li>
+              <li class="sep"></li>
+              <li> 
+                <label>Shut Down</label>
+              </li>
+            </ol>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="item" id="system">
+    <div class="icon">
+      <div class="hardDisk"></div>
+    </div>
+    <label>Portfolio</label>
+  </div>
+  <div class="item" id="games">
+    <div class="icon">
+      <div class="disk big">
+        <div class="label"></div>
+        <div class="shutter"></div>
+      </div>
+    </div>
+    <label>CV/Resume</label>
+  </div>
+  <div class="item" id="trash">
+    <div class="icon">
+      <div class="trash">
+        <div class="cover"></div>
+        <div class="can"></div>
+      </div>
+    </div>
+    <label>Trash</label>
+  </div>
+  <section class="window" id="systemDisk">
+    <header> 
+        <button class="close"></button>
+        <h2 class="title"><span>Avelino's Portfolio</span></h2>
+        <ul class="infoBar"> 
+            <li>8 items</li>
+            <li>232K in disk</li>
+            <li>167K available</li>
+        </ul>
+    </header>
+  
+<div class="content">
+  <ul class="grid">
+    <li>
+      <a href="mirrored-confessional.html">
+        <div class="item project-folder" data-project="1">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>The Mirrored <br> Confessional</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="widget-wakeup.html">
+        <div class="item project-folder" data-project="2">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Widget Wakeup</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="mission-bay-shuttle.html">
+        <div class="item project-folder" data-project="3">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Mission Bay <br> Shuttle App</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="noink-camera.html">
+        <div class="item project-folder" data-project="4">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>NoInk Camera</label>
+        </div>
+      </a>
+    </li>
+    <br>
+    <li>
+      <a href="dynamic-weather-watch-face.html">
+        <div class="item project-folder" data-project="5">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Dynamic Weather <br> Watch Face</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="mac-to-mac-migration-video.html">
+        <div class="item project-folder" data-project="6">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Mac-to-Mac <br> Migration Video</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="mighty-leaf-redesign.html">
+        <div class="item project-folder" data-project="7">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Mighty Leaf <br> Redesign</label>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="busyminded-magazine.html">
+        <div class="item project-folder" data-project="8">
+          <div class="icon">
+            <div class="folder"></div>
+          </div>
+          <label>Busyminded <br> Magazine</label>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    
+</section>
+<!-- Pop-up structure for project details -->
+<section class="popup" id="project1-details">
+  <div class="popup-content">
+    <header>
+      <span class="title">The Mirrored Confessional</span>
+      <span class="close" onclick="closePopup('project1-details')">&times;</span>
+    </header>
+    <div class="content">
+      <p>Details about The Mirrored Confessional go here...</p>
+    </div>
+  </div>
+</section>
+<section class="popup" id="project2-details">
+  <div class="popup-content">
+    <header>
+      <span class="title">Widget Wakeup</span>
+      <span class="close" onclick="closePopup('project2-details')">&times;</span>
+    </header>
+    <div class="content">
+      <p>Details about Widget Wakeup go here...</p>
+    </div>
+  </div>
+</section>
+<!-- Add more pop-ups as needed -->
+
+  <section class="window" id="gamesDisk">
+    <header> 
+      <button class="close"></button>
+      <h2 class="title"> <span>CV/Resume</span></h2>
+      
+    </header>
+    <div class="content" style="padding-left: 5%; padding-right: 5%; padding-top: 2%; padding-bottom: 2%;">
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: 500; margin-top: 20px; letter-spacing: 3%;">Work Experience</li>
+        <li style="margin-top: 10px;">
+          <li style="margin-top: 10px;">
+            <strong>Apple Inc.</strong> (Oct. 2022 – Present)
+            <ul style="margin-left: 20px;">
+              <li>Delivered personalized customer service by leveraging a deep understanding of Apple products to guide customers through their purchasing decisions, enhancing their in-store experience.</li>
+            </ul>
+          </li>
+          <strong>Criminal</strong> (Jan. 2024 – Present)
+          <ul style="margin-left: 20px;">
+            <li>Developed pitch decks with a focus on user interface design and strategic storytelling, enhancing the communication of value to potential clients.</li>
+            <li>Incorporated environmental initiatives and core company values into pitch narratives, bridging the gap between corporate identity and societal responsibility.</li>
+            <li>Established a new standard for proposal presentations by integrating the company’s ethics and efforts into the visual narrative, highlighting integrity and environmental consciousness.</li>
+          </ul>
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>Ketchup</strong> (Apr. 2024 – Present)
+          <ul style="margin-left: 20px;">
+            <li>Head Designer for a social media food sharing platform, leading the design of user interfaces and experiences to enhance user engagement and interaction.</li>
+            <li>Developed branding and visual identity guidelines, ensuring a consistent and appealing aesthetic across all digital products.</li>
+            <li>Collaborated with cross-functional teams to align design strategies with business goals, improving the overall user satisfaction and platform usability.</li>
+          </ul>
+        </li>
+    
+        <li style="margin-top: 10px;">
+          <strong>Mayor’s Office, San Diego</strong> (Jun. 2019 – Mar. 2020)
+          <ul style="margin-left: 20px;">
+            <li>Drafted official city proclamations, contributing to the articulation of the city’s achievements and initiatives with meticulous attention to detail.</li>
+          </ul>
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>Freelance Designer</strong> (Jun. 2016 – Present)
+          <ul style="margin-left: 20px;">
+            <li>Collaborated with clients to create logos, web designs, and print materials, delivering creative solutions that resonate with their target audience.</li>
+          </ul>
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>ASP Member and Leader</strong> (Aug. 2017 – Jun. 2020)
+          <ul style="margin-left: 20px;">
+            <li>Engaged in design and renovation initiatives, including leading a committee to enhance school common areas, making them more welcoming and functional for students.</li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: bold; margin-top: 20px;">Education</li>
+        <li style="margin-top: 10px;">
+          <strong>University of San Francisco</strong> (Dec. 2024)
+          <ul style="margin-left: 20px;">
+            <li>B.A. in Design with a Minor in Architecture</li>
+            <li>Dean's List Scholar; 4.0/4.0 GPA</li>
+            <li>Volunteer Graphic Designer for KUSF (USF Radio Station), involved in campus architecture projects.</li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: bold; margin-top: 20px;">Skills & Interests</li>
+        <li style="margin-top: 10px;">
+          <strong>Skills:</strong> UI/UX Design, Adobe Creative Suite, Figma Prototyping, HTML/CSS, JavaScript, User Research, Wireframing & Prototyping, Responsive Web Design, Architectural Drafting, Project Management, Team Collaboration, Visual Communication, Design Thinking, Fundraising
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>Interests:</strong> Tech innovation, UI prototyping, DIY projects, coding, self-publishing, exploring automation and engineering
+        </li>
+        <br>
+        <br>
+        <br>
+      </ul>
+    </div>
+    
+  </section>
+   <section class="window" id="gamesDisk">
+    <header> 
+      <button class="close"></button>
+      <h2 class="title"> <span>CV/Resume</span></h2>
+      
+    </header>
+    <div class="content" style="padding-left: 5%; padding-right: 5%; padding-top: 2%; padding-bottom: 2%;">
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: bold; margin-top: 20px;">Work Experience</li>
+        <li style="margin-top: 10px;">
+          
+          <strong>Criminal</strong> (Jan. 2024 – Present)
+          <ul style="margin-left: 20px;">
+            <li>Developed pitch decks with a focus on user interface design and strategic storytelling, enhancing the communication of value to potential clients.</li>
+            <li>Incorporated environmental initiatives and core company values into pitch narratives, bridging the gap between corporate identity and societal responsibility.</li>
+            <li>Established a new standard for proposal presentations by integrating the company’s ethics and efforts into the visual narrative, highlighting integrity and environmental consciousness.</li>
+          </ul>
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>Ketchup</strong> (Apr. 2024 – Present)
+          <ul style="margin-left: 20px;">
+            <li>Head Designer for a social media food sharing platform, leading the design of user interfaces and experiences to enhance user engagement and interaction.</li>
+            <li>Developed branding and visual identity guidelines, ensuring a consistent and appealing aesthetic across all digital products.</li>
+            <li>Collaborated with cross-functional teams to align design strategies with business goals, improving the overall user satisfaction and platform usability.</li>
+          </ul>
+        </li>
+        
+        <li style="margin-top: 10px;">
+          <strong>ASP Member and Leader</strong> (Aug. 2017 – Jun. 2020)
+          <ul style="margin-left: 20px;">
+            <li>Engaged in design and renovation initiatives, including leading a committee to enhance school common areas, making them more welcoming and functional for students.</li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: bold; margin-top: 20px;">Education</li>
+        <li style="margin-top: 10px;">
+          <strong>University of San Francisco</strong> (Dec. 2024)
+          <ul style="margin-left: 20px;">
+            <li>B.A. in Design with a Minor in Architecture</li>
+            <li>Dean's List Scholar; 4.0/4.0 GPA</li>
+            <li>Volunteer Graphic Designer for KUSF (USF Radio Station), involved in campus architecture projects.</li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="line-height: 1.6;">
+        <li style="font-size: 24px; font-weight: bold; margin-top: 20px;">Skills & Interests</li>
+        <li style="margin-top: 10px;">
+          <strong>Skills:</strong> UI/UX Design, Adobe Creative Suite, Figma Prototyping, HTML/CSS, JavaScript, User Research, Wireframing & Prototyping, Responsive Web Design, Architectural Drafting, Project Management, Team Collaboration, Visual Communication, Design Thinking, Fundraising
+        </li>
+        <li style="margin-top: 10px;">
+          <strong>Interests:</strong> Tech innovation, UI prototyping, DIY projects, coding, self-publishing, exploring automation and engineering
+        </li>
+        <br>
+        <br>
+        <br>
+      </ul>
+    </div>
+    
+  </section>
+  <section class="window" id="trashDisk">
+    <header> 
+      <button class="close"></button>
+      <h2 class="title"> <span>Trash</span></h2>
+      <ul class="sortBar"> 
+        <li>Name</li>
+        <li>Size</li>
+        <li>Kind</li>
+      </ul>
+    </header>
+    <div class="content"> 
+      <ul class="list"> 
+        <li>
+          <label>Empty folder</label>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="dialog" id="finder">
+    <img src="img/AvelinoOS.png" style="width: 30%; height: auto;">
+    <h2>As a design student specializing in UI/UX, publication, product, and graphic design, I merge form and function to create user-centric experiences. My journey in design bridges abstraction and humanity, making complex ideas accessible and effective.
+
+I believe in purposeful design that enriches daily life, blending usability with aesthetics to craft meaningful experiences. Let's embark on a design journey where functionality meets elegance, adding value to our lives.
+
+Top Expertise
+Proficient in prototyping and web design, I specialize in creating innovative and aesthetically pleasing digital experiences at the intersection of technology and art.</h2>
+    <h4>© 2024 Avelino J. Cortina IV </h4>
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
